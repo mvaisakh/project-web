@@ -2,11 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@font-face {
+    font-family: "Sk-Modernist";
+    src: url("./fonts/Sk-Modernist-Regular.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Sk-Modernist";
+    src: url("./fonts/Sk-Modernist-Bold.otf");
+    font-weight: 700;
 }
